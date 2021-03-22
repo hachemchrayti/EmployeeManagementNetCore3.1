@@ -41,6 +41,11 @@ namespace EmployeeManagementProject
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                //app.UseStatusCodePagesWithRedirects("/Error/{0}");
+                app.UseStatusCodePagesWithReExecute("/Error/{0}");
+            }
 
             // Add Default Files Middleware
             //app.UseDefaultFiles();
@@ -53,10 +58,10 @@ namespace EmployeeManagementProject
             //{
             //    routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
             //});
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hachemxx");
-            });
+            //app.Run(async (context) =>
+            //{
+            //    await context.Response.WriteAsync("Hachemxx");
+            //});
         }
     }
 }
