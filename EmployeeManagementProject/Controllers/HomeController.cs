@@ -21,7 +21,7 @@ namespace EmployeeManagementProject.Controllers
 
         public ViewResult Index()
         {
-            throw new Exception("XXX");
+
             var model = _employeeRepository.GetAllEmployee();
             return View(model);
         }
