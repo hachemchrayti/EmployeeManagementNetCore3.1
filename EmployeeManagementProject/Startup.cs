@@ -43,8 +43,10 @@ namespace EmployeeManagementProject
             }
             else
             {
+                app.UseExceptionHandler("/Error");
+
                 //app.UseStatusCodePagesWithRedirects("/Error/{0}");
-                app.UseStatusCodePagesWithReExecute("/Error/{0}");
+                //app.UseStatusCodePagesWithReExecute("/Error/{0}");
             }
 
             // Add Default Files Middleware
