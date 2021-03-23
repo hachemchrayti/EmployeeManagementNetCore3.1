@@ -93,3 +93,5 @@
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/EmployeeManagementProject.dll
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/EmployeeManagementProject.pdb
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/EmployeeManagementProject.genruntimeconfig.cache
+/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/mono_crash.11a6748113.0.json
+/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/EmployeeManagementProject.csprojAssemblyReference.cache

@@ -1,26 +1,27 @@
 ﻿<Properties StartupConfiguration="{47A619C3-8D16-4267-BD67-248FFC91F462}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagementProject/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagementProject/Properties/launchSettings.json">
     <Files>
-      <File FileName="EmployeeManagementProject/Controllers/AccountController.cs" Line="94" Column="10" />
-      <File FileName="EmployeeManagementProject/Views/Account/Register.cshtml" Line="31" Column="7" />
-      <File FileName="EmployeeManagementProject/Startup.cs" Line="68" Column="13" />
-      <File FileName="EmployeeManagementProject/Views/Shared/_Layout.cshtml" Line="4" Column="1" />
-      <File FileName="EmployeeManagementProject/Views/_ViewImports.cshtml" Line="5" Column="37" />
-      <File FileName="EmployeeManagementProject/ViewModels/LoginViewModel.cs" Line="18" Column="6" />
-      <File FileName="EmployeeManagementProject/Views/Account/Login.cshtml" Line="34" Column="7" />
-      <File FileName="EmployeeManagementProject/Controllers/HomeController.cs" Line="56" Column="20" />
+      <File FileName="EmployeeManagementProject/Controllers/AccountController.cs" Line="89" Column="57" />
+      <File FileName="EmployeeManagementProject/Views/Account/Register.cshtml" />
+      <File FileName="EmployeeManagementProject/Startup.cs" />
+      <File FileName="EmployeeManagementProject/Views/Shared/_Layout.cshtml" Line="17" Column="97" />
+      <File FileName="EmployeeManagementProject/Views/_ViewImports.cshtml" />
+      <File FileName="EmployeeManagementProject/ViewModels/LoginViewModel.cs" />
+      <File FileName="EmployeeManagementProject/Views/Account/Login.cshtml" />
+      <File FileName="EmployeeManagementProject/Controllers/HomeController.cs" />
+      <File FileName="EmployeeManagementProject/Properties/launchSettings.json" Line="23" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EmployeeManagementSolution" expanded="True">
             <Node name="EmployeeManagementProject" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HomeController.cs" selected="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
               </Node>
-              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Account" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
