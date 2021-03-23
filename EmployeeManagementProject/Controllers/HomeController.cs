@@ -2,6 +2,7 @@
 using System.IO;
 using EmployeeManagementProject.Models;
 using EmployeeManagementProject.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -21,7 +22,7 @@ namespace EmployeeManagementProject.Controllers
             this.hostingEnvironment = hostingEnvironment;
             this.logger = logger;
         }
-
+        [AllowAnonymous]
         public ViewResult Index()
         {
 
@@ -29,6 +30,7 @@ namespace EmployeeManagementProject.Controllers
             return View(model);
         }
 
+        [AllowAnonymous]
         public ViewResult Details(int? id)
         {
             //throw new Exception("Hachem Exception");
@@ -51,6 +53,7 @@ namespace EmployeeManagementProject.Controllers
             hmVM.PageTitle = $"Employee{employee.Id} Details";
             return View(hmVM);
         }
+
 
         [HttpGet]
         public ViewResult Create()
@@ -100,7 +103,6 @@ namespace EmployeeManagementProject.Controllers
             return View();
         }
 
-
         [HttpGet]
         public ViewResult Edit(int id)
         {
@@ -121,6 +123,7 @@ namespace EmployeeManagementProject.Controllers
         // Through model binding, the action method parameter
         // EmployeeEditViewModel receives the posted edit form data
         [HttpPost]
+
         public IActionResult Edit(EmployeeEditViewModel model)
         {
             // Check if the provided data is valid, if not rerender the edit view
