@@ -1,7 +1,7 @@
+/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/nlog.config
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/appsettings.json
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/libman.json
-/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/mono_crash.11a6748113.0.json
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/EmployeeManagementProject.deps.json
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/EmployeeManagementProject.runtimeconfig.json
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/EmployeeManagementProject.runtimeconfig.dev.json
@@ -32,6 +32,9 @@
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/NLog.dll
+/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll

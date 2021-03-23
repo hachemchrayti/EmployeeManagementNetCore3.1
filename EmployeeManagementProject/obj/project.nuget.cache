@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7E57t7qqvkMA5fV967BGF/CXouPNB4FqI971bKB/z6HPyEJ5JxhxYWbml4MCxKdBu1upSL8x8Sw4v4BT0YHSHA==",
+  "dgSpecHash": "6BLz2a4Jn+ANrB26bERqIktflkuMhiyQgoiOVtgSk7rWs5sOqgfG8Wq/BShkeTYMGr8LJLCqk0SNMS7oqmJAOA==",
   "success": true,
   "projectFilePath": "/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/EmployeeManagementProject.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,9 @@
     "/Users/hachemchrayti/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/Users/hachemchrayti/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/newtonsoft.json/10.0.1/newtonsoft.json.10.0.1.nupkg.sha512",
+    "/Users/hachemchrayti/.nuget/packages/nlog/4.7.8/nlog.4.7.8.nupkg.sha512",
+    "/Users/hachemchrayti/.nuget/packages/nlog.extensions.logging/1.7.1/nlog.extensions.logging.1.7.1.nupkg.sha512",
+    "/Users/hachemchrayti/.nuget/packages/nlog.web.aspnetcore/4.11.0/nlog.web.aspnetcore.4.11.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/runtime.native.system/4.3.0/runtime.native.system.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.collections.concurrent/4.3.0/system.collections.concurrent.4.3.0.nupkg.sha512",

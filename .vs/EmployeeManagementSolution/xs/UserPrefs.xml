@@ -1,29 +1,23 @@
 ﻿<Properties StartupConfiguration="{47A619C3-8D16-4267-BD67-248FFC91F462}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagementProject/Models/MockEmployeeRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagementProject/Program.cs">
     <Files>
-      <File FileName="EmployeeManagementProject/Controllers/HomeController.cs" Line="31" Column="53" />
-      <File FileName="EmployeeManagementProject/Controllers/ErrorController.cs" Line="45" Column="1" />
+      <File FileName="EmployeeManagementProject/Controllers/HomeController.cs" Line="32" Column="13" />
+      <File FileName="EmployeeManagementProject/Controllers/ErrorController.cs" Line="11" Column="33" />
       <File FileName="EmployeeManagementProject/Views/Home/Details.cshtml" Line="1" Column="23" />
       <File FileName="EmployeeManagementProject/ViewModels/HomeDetailsViewModel.cs" Line="6" Column="18" />
       <File FileName="EmployeeManagementProject/Models/IEmployeeRepository.cs" Line="8" Column="34" />
       <File FileName="EmployeeManagementProject/Models/SQLEmployeeRepository.cs" Line="1" Column="1" />
-      <File FileName="EmployeeManagementProject/Models/MockEmployeeRepository.cs" Line="24" Column="60" />
+      <File FileName="EmployeeManagementProject/Models/MockEmployeeRepository.cs" Line="44" Column="41" />
+      <File FileName="EmployeeManagementProject/nlog.config" Line="13" Column="8" />
+      <File FileName="EmployeeManagementProject/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EmployeeManagementSolution" expanded="True">
             <Node name="EmployeeManagementProject" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="MockEmployeeRepository.cs" selected="True" />
-              </Node>
-              <Node name="Properties" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True" />
+              <Node name="Views" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
