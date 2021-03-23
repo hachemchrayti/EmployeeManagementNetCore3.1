@@ -6,6 +6,7 @@ using EmployeeManagementProject.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -27,9 +28,13 @@ namespace EmployeeManagementProject
         {
 
             services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(_config.GetConnectionString("EmployeeDBConnection")));
+
+            services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
             services.AddMvc(options => options.EnableEndpointRouting = false);
             //services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
             services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
+
+
 
 
         }
@@ -53,6 +58,9 @@ namespace EmployeeManagementProject
             //app.UseDefaultFiles();
             // Add Static Files Middleware
             app.UseStaticFiles();
+
+
+            app.UseAuthentication();
 
             //app.UseRouting();
             app.UseMvcWithDefaultRoute();
