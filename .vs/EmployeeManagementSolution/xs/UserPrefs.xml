@@ -1,23 +1,27 @@
 ﻿<Properties StartupConfiguration="{47A619C3-8D16-4267-BD67-248FFC91F462}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagementProject/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagementProject/Startup.cs">
     <Files>
-      <File FileName="EmployeeManagementProject/Controllers/HomeController.cs" Line="32" Column="13" />
+      <File FileName="EmployeeManagementProject/Controllers/HomeController.cs" Line="37" Column="54" />
       <File FileName="EmployeeManagementProject/Controllers/ErrorController.cs" Line="11" Column="33" />
       <File FileName="EmployeeManagementProject/Views/Home/Details.cshtml" Line="1" Column="23" />
       <File FileName="EmployeeManagementProject/ViewModels/HomeDetailsViewModel.cs" Line="6" Column="18" />
       <File FileName="EmployeeManagementProject/Models/IEmployeeRepository.cs" Line="8" Column="34" />
       <File FileName="EmployeeManagementProject/Models/SQLEmployeeRepository.cs" Line="1" Column="1" />
       <File FileName="EmployeeManagementProject/Models/MockEmployeeRepository.cs" Line="44" Column="41" />
-      <File FileName="EmployeeManagementProject/nlog.config" Line="13" Column="8" />
-      <File FileName="EmployeeManagementProject/Program.cs" Line="1" Column="1" />
+      <File FileName="EmployeeManagementProject/nlog.config" Line="6" Column="136" />
+      <File FileName="EmployeeManagementProject/Program.cs" Line="23" Column="19" />
+      <File FileName="EmployeeManagementProject/appsettings.json" Line="6" Column="55" />
+      <File FileName="EmployeeManagementProject/Startup.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EmployeeManagementSolution" expanded="True">
             <Node name="EmployeeManagementProject" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -29,9 +33,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/Controllers/HomeController.cs" relfile="EmployeeManagementProject/Controllers/HomeController.cs" line="36" column="1" />
-      <Breakpoint file="/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/Controllers/ErrorController.cs" relfile="EmployeeManagementProject/Controllers/ErrorController.cs" line="44" column="1" />
-      <Breakpoint file="/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/Controllers/ErrorController.cs" relfile="EmployeeManagementProject/Controllers/ErrorController.cs" line="38" column="1" />
+      <Breakpoint file="/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/Controllers/HomeController.cs" relfile="EmployeeManagementProject/Controllers/HomeController.cs" line="28" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
