@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{47A619C3-8D16-4267-BD67-248FFC91F462}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagementProject/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagementProject/Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="EmployeeManagementProject/Controllers/AccountController.cs" Line="36" Column="44" />
       <File FileName="EmployeeManagementProject/Views/Account/Register.cshtml" Line="31" Column="7" />
-      <File FileName="EmployeeManagementProject/Startup.cs" Line="34" Column="16" />
+      <File FileName="EmployeeManagementProject/Startup.cs" Line="38" Column="13" />
+      <File FileName="EmployeeManagementProject/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="EmployeeManagementProject/Views/_ViewImports.cshtml" Line="5" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,9 +17,10 @@
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Account" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
               </Node>
-              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>

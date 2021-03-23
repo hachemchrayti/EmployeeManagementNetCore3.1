@@ -65,9 +65,9 @@ namespace EmployeeManagementProject
             //app.UseDefaultFiles();
             // Add Static Files Middleware
             app.UseStaticFiles();
-
-
             app.UseAuthentication();
+            app.UseAuthorization();
+
 
             //app.UseRouting();
             app.UseMvcWithDefaultRoute();
