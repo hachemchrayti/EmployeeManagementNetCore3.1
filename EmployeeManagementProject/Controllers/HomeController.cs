@@ -26,8 +26,9 @@ namespace EmployeeManagementProject.Controllers
             return View(model);
         }
 
-        public ViewResult Details(int id)
+        public ViewResult Details(int? id)
         {
+            throw new Exception("Hachem Exception");
             Employee employee = _employeeRepository.GetEmployee(id);
 
             if (employee == null)
@@ -36,7 +37,10 @@ namespace EmployeeManagementProject.Controllers
                 return View("EmployeeNotFound", id);
             }
 
-            return View(employee);
+            HomeDetailsViewModel hmVM = new HomeDetailsViewModel();
+            hmVM.Employee = employee;
+            hmVM.PageTitle = $"Employee{employee.Id} Details";
+            return View(hmVM);
         }
 
         [HttpGet]

@@ -1,6 +1,7 @@
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/appsettings.json
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/libman.json
+/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/mono_crash.11a6748113.0.json
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/EmployeeManagementProject.deps.json
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/EmployeeManagementProject.runtimeconfig.json
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/bin/Debug/netcoreapp3.1/EmployeeManagementProject.runtimeconfig.dev.json
@@ -68,7 +69,10 @@
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Home/Create.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Home/Details.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Home/Edit.cshtml.g.cs
+/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Home/EmployeeNotFound.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/NotFound.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
@@ -79,6 +83,3 @@
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/EmployeeManagementProject.dll
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/EmployeeManagementProject.pdb
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/EmployeeManagementProject.genruntimeconfig.cache
-/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Home/EmployeeNotFound.cshtml.g.cs
-/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/NotFound.cshtml.g.cs
-/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
