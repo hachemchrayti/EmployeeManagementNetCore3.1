@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using EmployeeManagementProject.Models;
 using EmployeeManagementProject.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeManagementProject.Controllers
 {
+    [Authorize(Roles = "Admin,Users")]
     public class AdministrationController : Controller
     {
         private readonly RoleManager<IdentityRole> roleManager;

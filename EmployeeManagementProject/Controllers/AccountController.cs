@@ -119,5 +119,12 @@ namespace EmployeeManagementProject.Controllers
                 return Json($"Email {email} is already in use.");
             }
         }
+
+        [AllowAnonymous]
+        [HttpGet]
+        public IActionResult AccessDenied()
+        {
+            return RedirectToAction("Login", "Account");
+        }
     }
 }
