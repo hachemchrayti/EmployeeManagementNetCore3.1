@@ -320,7 +320,8 @@ namespace EmployeeManagementProject.Controllers
 
 
         [HttpPost]
-        [Authorize(Policy = "DeleteRolePolicy")]
+        // [Authorize(Policy = "DeleteRolePolicy")]
+        [Authorize(Policy = "SuperAdminPolicy")]
         public async Task<IActionResult> DeleteRole(string id)
         {
             var role = await roleManager.FindByIdAsync(id);
