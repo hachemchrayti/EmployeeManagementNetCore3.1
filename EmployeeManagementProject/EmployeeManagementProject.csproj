@@ -18,6 +18,7 @@
     <Folder Include="wwwroot\css\" />
     <Folder Include="Views\Account\" />
     <Folder Include="Utilities\" />
+    <Folder Include="Views\Administration\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\lib\twitter-bootstrap\css\bootstrap.css" />
