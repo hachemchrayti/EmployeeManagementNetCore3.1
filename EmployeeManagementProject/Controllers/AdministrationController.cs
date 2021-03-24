@@ -167,6 +167,7 @@ namespace EmployeeManagementProject.Controllers
 
         // Role ID is passed from the URL to the action
         [HttpGet]
+        [Authorize(Policy = "EditRolePolicy")]
         public async Task<IActionResult> EditRole(string id)
         {
             // Find the role by Role ID
