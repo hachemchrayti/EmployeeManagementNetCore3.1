@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{47A619C3-8D16-4267-BD67-248FFC91F462}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagementProject/Views/Account/AccessDenied.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagementProject/Views/Account/ListUsers.cshtml">
     <Files>
       <File FileName="EmployeeManagementProject/Views/Shared/_Layout.cshtml" Line="50" Column="30" />
-      <File FileName="EmployeeManagementProject/Controllers/AdministrationController.cs" Line="12" Column="30" />
+      <File FileName="EmployeeManagementProject/Controllers/AdministrationController.cs" Line="25" Column="39" />
       <File FileName="EmployeeManagementProject/Controllers/AccountController.cs" Line="125" Column="42" />
-      <File FileName="EmployeeManagementProject/Views/Account/AccessDenied.cshtml" Line="5" Column="7" />
+      <File FileName="EmployeeManagementProject/Views/Account/ListUsers.cshtml" Line="48" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +16,7 @@
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Account" expanded="True">
-                  <Node name="AccessDenied.cshtml" selected="True" />
+                  <Node name="ListUsers.cshtml" selected="True" />
                 </Node>
                 <Node name="Shared" expanded="True" />
               </Node>

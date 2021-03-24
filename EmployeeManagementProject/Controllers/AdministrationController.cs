@@ -21,7 +21,12 @@ namespace EmployeeManagementProject.Controllers
             this.userManager = userManager;
         }
 
-
+        [HttpGet]
+        public IActionResult ListUsers()
+        {
+            var users = userManager.Users;
+            return View(users);
+        }
 
         [HttpGet]
         public IActionResult ListRoles()
