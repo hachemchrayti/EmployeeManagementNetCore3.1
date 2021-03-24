@@ -1,13 +1,15 @@
 ﻿<Properties StartupConfiguration="{47A619C3-8D16-4267-BD67-248FFC91F462}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagementProject/Views/Administration/ListRoles.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagementProject/Views/Account/AccessDenied.cshtml">
     <Files>
       <File FileName="EmployeeManagementProject/Views/Shared/_Layout.cshtml" Line="24" Column="64" />
-      <File FileName="EmployeeManagementProject/Controllers/AdministrationController.cs" Line="324" Column="46" />
+      <File FileName="EmployeeManagementProject/Controllers/AdministrationController.cs" Line="324" Column="9" />
       <File FileName="EmployeeManagementProject/Views/Administration/EditUser.cshtml" Line="93" Column="15" />
       <File FileName="EmployeeManagementProject/Views/Administration/ManageUserRoles.cshtml" Line="23" Column="14" />
       <File FileName="EmployeeManagementProject/Views/Administration/ManageUserClaims.cshtml" Line="26" Column="15" />
-      <File FileName="EmployeeManagementProject/Startup.cs" Line="61" Column="1" />
-      <File FileName="EmployeeManagementProject/Views/Administration/ListRoles.cshtml" Line="3" Column="52" />
+      <File FileName="EmployeeManagementProject/Startup.cs" Line="62" Column="17" />
+      <File FileName="EmployeeManagementProject/Views/Administration/ListRoles.cshtml" Line="32" Column="22" />
+      <File FileName="EmployeeManagementProject/Views/Administration/AccessDenied.cshtml" Line="2" Column="38" />
+      <File FileName="EmployeeManagementProject/Views/Account/AccessDenied.cshtml" Line="2" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,12 +20,11 @@
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Utilities" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Account" expanded="True" />
-                <Node name="Administration" expanded="True">
-                  <Node name="ListRoles.cshtml" selected="True" />
+                <Node name="Account" expanded="True">
+                  <Node name="AccessDenied.cshtml" selected="True" />
                 </Node>
+                <Node name="Administration" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">

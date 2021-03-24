@@ -74,6 +74,7 @@
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Account/AccessDenied.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Account/Register.cshtml.g.cs
+/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Administration/AccessDenied.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Administration/CreateRole.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Administration/EditRole.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Administration/EditUser.cshtml.g.cs

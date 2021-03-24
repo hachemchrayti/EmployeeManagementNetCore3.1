@@ -321,8 +321,8 @@ namespace EmployeeManagementProject.Controllers
 
 
         [HttpPost]
-        // [Authorize(Policy = "DeleteRolePolicy")]
-        [Authorize(Policy = "SuperAdminPolicy")]
+        [Authorize(Policy = "DeleteRolePolicy")]
+        //[Authorize(Policy = "SuperAdminPolicy")]
         public async Task<IActionResult> DeleteRole(string id)
         {
             var role = await roleManager.FindByIdAsync(id);
@@ -519,6 +519,13 @@ namespace EmployeeManagementProject.Controllers
 
             return RedirectToAction("EditUser", new { Id = model.UserId });
 
+        }
+
+        [HttpGet]
+        [AllowAnonymous]
+        public IActionResult AccessDenied()
+        {
+            return View();
         }
 
 
