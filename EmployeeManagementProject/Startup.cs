@@ -62,7 +62,7 @@ namespace EmployeeManagementProject
                 options.AddPolicy("DeleteRolePolicy",
                    policy => policy.RequireClaim("Delete Role"));
                 options.AddPolicy("AdminRolePolicy", policy => policy.RequireRole("Admin"));
-                options.AddPolicy("EditRolePolicy", policy => policy.RequireClaim("Edit Role"));
+                options.AddPolicy("EditRolePolicy", policy => policy.RequireClaim("Edit Role", "true"));
                 options.AddPolicy("SuperAdminPolicy", policy =>
                   policy.RequireRole("Admin", "User", "Manager"));
 
