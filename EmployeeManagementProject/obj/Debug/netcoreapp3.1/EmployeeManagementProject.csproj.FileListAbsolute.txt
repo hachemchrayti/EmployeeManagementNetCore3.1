@@ -76,8 +76,10 @@
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Account/Register.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Administration/CreateRole.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Administration/EditRole.cshtml.g.cs
+/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Administration/EditUser.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Administration/EditUsersInRole.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Administration/ListRoles.cshtml.g.cs
+/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Administration/ListUsers.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Employees/Details.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Employees/Edit.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Employees/List.cshtml.g.cs
@@ -98,4 +100,3 @@
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/EmployeeManagementProject.dll
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/EmployeeManagementProject.pdb
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/EmployeeManagementProject.genruntimeconfig.cache
-/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Administration/ListUsers.cshtml.g.cs

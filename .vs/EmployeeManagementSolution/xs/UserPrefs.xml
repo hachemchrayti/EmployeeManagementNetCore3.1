@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{47A619C3-8D16-4267-BD67-248FFC91F462}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagementProject/Views/Account/ListUsers.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagementProject/Views/Administration/EditUser.cshtml">
     <Files>
-      <File FileName="EmployeeManagementProject/Views/Shared/_Layout.cshtml" Line="50" Column="30" />
-      <File FileName="EmployeeManagementProject/Controllers/AdministrationController.cs" Line="25" Column="39" />
-      <File FileName="EmployeeManagementProject/Controllers/AccountController.cs" Line="125" Column="42" />
-      <File FileName="EmployeeManagementProject/Views/Account/ListUsers.cshtml" Line="48" Column="2" />
+      <File FileName="EmployeeManagementProject/Views/Shared/_Layout.cshtml" Line="37" Column="40" />
+      <File FileName="EmployeeManagementProject/Controllers/AdministrationController.cs" Line="91" Column="10" />
+      <File FileName="EmployeeManagementProject/Controllers/AccountController.cs" Line="59" Column="62" />
+      <File FileName="EmployeeManagementProject/Views/Account/ListUsers.cshtml" Line="29" Column="19" />
+      <File FileName="EmployeeManagementProject/ViewModels/EditUserViewModel.cs" Line="29" Column="6" />
+      <File FileName="EmployeeManagementProject/Views/Administration/EditUser.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,8 +17,9 @@
               <Node name="Utilities" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Account" expanded="True">
-                  <Node name="ListUsers.cshtml" selected="True" />
+                <Node name="Account" expanded="True" />
+                <Node name="Administration" expanded="True">
+                  <Node name="EditUser.cshtml" selected="True" />
                 </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
