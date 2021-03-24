@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{47A619C3-8D16-4267-BD67-248FFC91F462}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagementProject/Views/Administration/ManageUserRoles.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagementProject/Views/Administration/ManageUserClaims.cshtml">
     <Files>
       <File FileName="EmployeeManagementProject/Views/Shared/_Layout.cshtml" Line="24" Column="64" />
-      <File FileName="EmployeeManagementProject/Controllers/AdministrationController.cs" Line="442" Column="1" />
-      <File FileName="EmployeeManagementProject/Views/Administration/EditUser.cshtml" Line="68" Column="15" />
-      <File FileName="EmployeeManagementProject/Views/Administration/ManageUserRoles.cshtml" Line="1" Column="1" />
+      <File FileName="EmployeeManagementProject/Controllers/AdministrationController.cs" Line="521" Column="1" />
+      <File FileName="EmployeeManagementProject/Views/Administration/EditUser.cshtml" Line="93" Column="15" />
+      <File FileName="EmployeeManagementProject/Views/Administration/ManageUserRoles.cshtml" Line="23" Column="14" />
+      <File FileName="EmployeeManagementProject/Views/Administration/ManageUserClaims.cshtml" Line="28" Column="8" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,13 +13,14 @@
           <Node name="EmployeeManagementSolution" expanded="True">
             <Node name="EmployeeManagementProject" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Utilities" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Account" expanded="True" />
                 <Node name="Administration" expanded="True">
-                  <Node name="ManageUserRoles.cshtml" selected="True" />
+                  <Node name="ManageUserClaims.cshtml" selected="True" />
                 </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
