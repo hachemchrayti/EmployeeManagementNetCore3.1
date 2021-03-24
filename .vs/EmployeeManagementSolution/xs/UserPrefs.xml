@@ -1,25 +1,30 @@
 ﻿<Properties StartupConfiguration="{47A619C3-8D16-4267-BD67-248FFC91F462}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagementProject/Utilities/ValidEmailDomainAttribute.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagementProject/ViewModels/RegisterViewModel.cs">
     <Files>
-      <File FileName="EmployeeManagementProject/Controllers/AccountController.cs" Line="119" Column="10" />
-      <File FileName="EmployeeManagementProject/Views/Account/Register.cshtml" />
-      <File FileName="EmployeeManagementProject/Startup.cs" />
-      <File FileName="EmployeeManagementProject/Views/Shared/_Layout.cshtml" Line="12" Column="85" />
-      <File FileName="EmployeeManagementProject/Views/_ViewImports.cshtml" />
-      <File FileName="EmployeeManagementProject/ViewModels/LoginViewModel.cs" />
-      <File FileName="EmployeeManagementProject/Views/Account/Login.cshtml" />
-      <File FileName="EmployeeManagementProject/Controllers/HomeController.cs" />
-      <File FileName="EmployeeManagementProject/Properties/launchSettings.json" Line="23" Column="47" />
-      <File FileName="EmployeeManagementProject/ViewModels/RegisterViewModel.cs" Line="12" Column="34" />
-      <File FileName="EmployeeManagementProject/Utilities/ValidEmailDomainAttribute.cs" Line="18" Column="6" />
+      <File FileName="EmployeeManagementProject/Controllers/AccountController.cs" Line="36" Column="47" />
+      <File FileName="EmployeeManagementProject/Startup.cs" Line="34" Column="49" />
+      <File FileName="EmployeeManagementProject/Models/ApplicationUser.cs" Line="6" Column="41" />
+      <File FileName="EmployeeManagementProject/Views/Shared/_Layout.cshtml" Line="20" Column="56" />
+      <File FileName="EmployeeManagementProject/Models/AppDbContext.cs" Line="8" Column="67" />
+      <File FileName="EmployeeManagementProject/Migrations/20210324082938_Extend IdentityUser.cs" Line="1" Column="1" />
+      <File FileName="EmployeeManagementProject/Views/Account/Register.cshtml" Line="1" Column="16" />
+      <File FileName="EmployeeManagementProject/ViewModels/RegisterViewModel.cs" Line="8" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EmployeeManagementSolution" expanded="True">
             <Node name="EmployeeManagementProject" expanded="True">
-              <Node name="Utilities" expanded="True">
-                <Node name="ValidEmailDomainAttribute.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Utilities" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="RegisterViewModel.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
