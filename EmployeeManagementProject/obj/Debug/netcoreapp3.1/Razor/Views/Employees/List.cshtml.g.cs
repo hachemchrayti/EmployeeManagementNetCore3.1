@@ -26,8 +26,15 @@ using EmployeeManagementProject.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/Views/_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"30939bb6b7760024d21741a06313355f71556003", @"/Views/Employees/List.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ad3dd220c13af1ad10952bbeea698e5ac41d7f19", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9f043dd705be8c1eae73a7eeb9a431c6ea2a137b", @"/Views/_ViewImports.cshtml")]
     public class Views_Employees_List : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using EmployeeManagementProject.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -27,10 +30,43 @@ namespace EmployeeManagementProject
         {
 
             services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(_config.GetConnectionString("EmployeeDBConnection")));
-            services.AddMvc(options => options.EnableEndpointRouting = false);
+
+            services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+            {
+                options.Password.RequiredLength = 10;
+                options.Password.RequiredUniqueChars = 3;
+                options.Password.RequireNonAlphanumeric = false;
+            })
+            .AddEntityFrameworkStores<AppDbContext>();
+
+
+            services.AddMvc(options =>
+            {
+                options.EnableEndpointRouting = false;
+                var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+                options.Filters.Add(new AuthorizeFilter(policy));
+
+
+            });
             //services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
             services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
 
+
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.AccessDeniedPath = new PathString("/Administration/AccessDenied");
+            });
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("DeleteRolePolicy",
+                   policy => policy.RequireClaim("Delete Role"));
+                options.AddPolicy("AdminRolePolicy", policy => policy.RequireRole("Admin"));
+                options.AddPolicy("EditRolePolicy", policy => policy.RequireClaim("Edit Role", "true"));
+                options.AddPolicy("SuperAdminPolicy", policy =>
+                  policy.RequireRole("Admin", "User", "Manager"));
+
+            });
 
         }
 
@@ -41,11 +77,21 @@ namespace EmployeeManagementProject
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler("/Error");
+
+                //app.UseStatusCodePagesWithRedirects("/Error/{0}");
+                app.UseStatusCodePagesWithReExecute("/Error/{0}");
+            }
 
             // Add Default Files Middleware
             //app.UseDefaultFiles();
             // Add Static Files Middleware
             app.UseStaticFiles();
+            app.UseAuthentication();
+            app.UseAuthorization();
+
 
             //app.UseRouting();
             app.UseMvcWithDefaultRoute();
@@ -53,10 +99,10 @@ namespace EmployeeManagementProject
             //{
             //    routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
             //});
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hachemxx");
-            });
+            //app.Run(async (context) =>
+            //{
+            //    await context.Response.WriteAsync("Hachemxx");
+            //});
         }
     }
 }

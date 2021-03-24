@@ -41,7 +41,7 @@ namespace EmployeeManagementProject.Models
             return _employeeList;
         }
 
-        public Employee GetEmployee(int Id)
+        public Employee GetEmployee(int? Id)
         {
             return this._employeeList.FirstOrDefault(e => e.Id == Id);
         }
@@ -59,5 +59,5 @@ namespace EmployeeManagementProject.Models
         }
     }
 }
-    
+
 

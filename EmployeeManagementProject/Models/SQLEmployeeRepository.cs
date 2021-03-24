@@ -35,7 +35,7 @@ namespace EmployeeManagementProject.Models
             return context.Employees;
         }
 
-        public Employee GetEmployee(int Id)
+        public Employee GetEmployee(int? Id)
         {
             return context.Employees.Find(Id);
         }
