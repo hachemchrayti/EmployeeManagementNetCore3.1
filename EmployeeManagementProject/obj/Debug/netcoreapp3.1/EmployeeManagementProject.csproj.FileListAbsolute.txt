@@ -97,3 +97,4 @@
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Administration/ListRoles.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Administration/EditRole.cshtml.g.cs
 /Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Administration/EditUsersInRole.cshtml.g.cs
+/Volumes/Dev/Formations/NetCore3.1/Projects/Kudvencat/EmployeeManagementSolution/EmployeeManagementProject/obj/Debug/netcoreapp3.1/Razor/Views/Account/AccessDenied.cshtml.g.cs

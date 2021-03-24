@@ -120,11 +120,12 @@ namespace EmployeeManagementProject.Controllers
             }
         }
 
-        [AllowAnonymous]
         [HttpGet]
+        [AllowAnonymous]
         public IActionResult AccessDenied()
         {
-            return RedirectToAction("Login", "Account");
+            return View();
         }
+
     }
 }
